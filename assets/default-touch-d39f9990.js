@@ -1,0 +1,1 @@
+import{an as e,r as s,W as a}from"./index-95cbf248.js";const t=e("MODE",(()=>{const e=s("light"),t=a((()=>e.value));return{mode:e,getMode:t,setMode:function(s){e.value=s}}}),{persist:!0}),o="/assets/default-background-fcde99bb.png",d="/assets/default-touch-7e98529e.jpg";export{o as a,d,t as u};

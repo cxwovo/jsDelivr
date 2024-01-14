@@ -1,0 +1,139 @@
+html,
+html[data-mode="dark"] {
+    background: var(--background);
+}
+
+html {
+    --font-default: "Custom Font", "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "微软雅黑", Arial, "sans-serif";
+    --theme: #fb6c28;
+    --main: #303133;
+    --scroll-bar: #c0c4cc;
+    --bg-color: white;
+    --background-reverse: #000;
+    --background: #fff;
+    --main-bg-color: white;
+    --sub-background: #f5f5f5;
+    --grid-bg-color: #efefef;
+    --grid-bg-image: linear-gradient(90deg, rgba(60, 10, 30, .04) 3%, transparent 0), linear-gradient(1turn, rgba(60, 10, 30, .04) 3%, transparent 0);
+    --color: black;
+    --classC: #ebeef5;
+    --font-color: black;
+    --code-font-color: #5c6370;
+    --head-background: rgba(255, 255, 255, 0.65);
+    --classD: #f2f6fc;
+    --cate-button-color: #e9f2ff;
+    --link-font-color: #fff;
+    --link-filter: brightness(1);
+    --classA: #333;
+    --classB: #e4e7ed;
+    --classG: #dcdcdc;
+    --classH: #e9f2ff;
+    --box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    --text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    --pg-bg-color: #fff;
+    --pg-bt-disabled: #dcdfe6;
+    --pg-shadow: 0 0 3px 0 #cacaca;
+    --code-color: #abb2bf;
+    --minor: #909399;
+    --footer-bg: #f2f6fc;
+    --routine: #606266;
+    --header-border: #ffbb76;
+    --header-bg: #fffcef;
+    --reply-bottom-color: #ebeef5;
+    --code-background: #e8f3ff;
+    --code: #409eff;
+    --radius-wrap: 8px;
+    --radius-inner: 4px;
+    --radius-img: 5px;
+    --shadow-code: #bdbdbd;
+    --quote: #50bfff;
+    --title: #333;
+    --background-notice: #fbf5f1;
+    --shadow-notice: inset 0 0 15px #d1dae8;
+    --block-shadow: 1px 2px 10px 0 #afafaf;
+    --animation-notice: twinkle 1s ease infinite alternate;
+    --background-tag: #fdfdfd;
+    --classE: #dcdcdc;
+    --seat: #c0c4cc;
+    --classF: #333;
+    --search-color: #f3f4f6;
+    --sib: #f2f6fc;
+    --border-color-limited: #ebeef5;
+    --input-border-color: #dcdfe6;
+    --background-tags: #fffaeb;
+    --sib-background: #fff;
+    --box-shadow-pager: 0 0 3px 0 #cacaca;
+    --placeholder-font: #b2b1b5;
+    --background-journal: #fff;
+    --box-shadow-journal: #d8d8d8;
+    --background-journal-gradient: linear-gradient(0deg, #d4d4d4, transparent 80%);
+    --background-journal-block: #f5f5f5;
+    --radius-img: 5px;
+}
+
+html[data-mode='dark'] {
+    --theme: #9999ff;
+    --main: #999;
+    --scroll-bar: #666;
+    --bg-color: #2b2b2b;
+    --background-reverse: #fff;
+    --background: #232323;
+    --main-bg-color: #232323;
+    --sub-background: #303030;
+    --grid-bg-color: #2b2b2b;
+    --grid-bg-image: none;
+    --color: #999;
+    --classC: #414243;
+    --font-color: #999;
+    --head-background: rgba(0, 0, 0, 0.65);
+    --classD: #303030;
+    --cate-button-color: #454545;
+    --link-filter: brightness(.8);
+    --classA: #bdbdbd;
+    --classB: #454545;
+    --classG: #303030;
+    --classH: #454545;
+    --box-shadow: 0px 0px 12px rgba(0, 0, 0, .72);
+    --text-shadow: none;
+    --pg-bg-color: #303030;
+    --pg-bt-disabled: #515253;
+    --pg-shadow: 0 0 3px 0 #1b1b1b;
+    --minor: #777;
+    --footer-bg: #303030;
+    --routine: #888;
+    --header-border: #6f553b;
+    --header-bg: #2b2715;
+    --reply-bottom-color: #414243;
+    --code-background: #353246;
+    --code: #efa141;
+    --shadow-code: #191919;
+    --quote: #276b92;
+    --title: #ddd;
+    --background-notice: #303030;
+    --shadow-notice: inset 0 0 15px #4a4c4e;
+    --block-shadow: 2px 4px 10px 0 #0a0a0a;
+    --animation-notice: twinkle-night 1s ease infinite alternate;
+    --background-tag: #2f2f2f;
+    --classE: #585858;
+    --seat: #666;
+    --classF: #bdbdbd;
+    --search-color: #3e3e3e;
+    --sib: #3a3a3a;
+    --border-color-limited: #3e3e3e;
+    --input-border-color: #3b3a3a;
+    --background-tags: #35353e;
+    --sib-background: #303030;
+    --box-shadow-pager: 0 0 3px 0 #1b1b1b;
+    --placeholder-font: #999;
+    --background-journal: #383838;
+    --box-shadow-journal: rgba(0, 0, 0, 0.2);
+    --background-journal-gradient: linear-gradient(0deg, #151515, transparent 80%);
+    --background-journal-block: #232323;
+}
+
+html[data-mode="dark"] body:after {
+    background: #2b2b2b;
+    z-index: -200;
+    background-image: none;
+}

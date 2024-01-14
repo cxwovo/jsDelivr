@@ -1,0 +1,1 @@
+import{an as s,r as e,W as n}from"./index-95cbf248.js";const r=s("USER",(()=>{const s=e({}),r=n((()=>s.value));return{userInfo:s,getUserInfo:r,setUserInfo:function(e){s.value=e}}}),{persist:!0});export{r as u};

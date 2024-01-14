@@ -1,0 +1,1 @@
+import{_ as s}from"./_plugin-vue_export-helper-1b428a4d.js";import{o as t,c as e,t as p}from"./index-95cbf248.js";const a={class:"c-empty"},o={name:"CEmpty"},r=s(Object.assign(o,{props:{description:{type:String,default:"暂无数据"}},setup(s){const o=s;return(s,r)=>(t(),e("div",a,p(o.description),1))}}),[["__scopeId","data-v-f5da5a37"]]);export{r as C};

@@ -1,0 +1,228 @@
+body:after {
+    background-color: #efefef;
+    background-image: linear-gradient(90deg, rgba(60, 10, 30, 0.04) 3%, transparent 0),
+    linear-gradient(1turn, rgba(60, 10, 30, 0.04) 3%, transparent 0);
+    background-size: 20px 20px;
+    background-position: 50%;
+    background-repeat: repeat;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+i, svg {
+    vertical-align: middle;
+}
+
+/*// 全局缓入*/
+.showInUp {
+    animation: showInUp .5s;
+}
+
+/*// 分类滚动条*/
+.index-contain .page-contain .index-articles .article-div .index-article-contain .index-article-cate::-webkit-scrollbar {
+    height: 4px;
+}
+
+/*// 标签滚动条*/
+.detail-operate .detail-operate-tags::-webkit-scrollbar {
+    height: 4px;
+}
+
+html[data-mode='dark'] img {
+    -webkit-filter: brightness(.9);
+    filter: brightness(.9);
+}
+
+@-webkit-keyframes twinkle {
+    to {
+        -webkit-box-shadow: inset 0 0 15px #f4b393;
+        box-shadow: inset 0 0 15px #f4b393;
+    }
+}
+
+@keyframes twinkle {
+    to {
+        -webkit-box-shadow: inset 0 0 15px #f4b393;
+        box-shadow: inset 0 0 15px #f4b393;
+    }
+}
+
+@-webkit-keyframes twinkle-night {
+    to {
+        -webkit-box-shadow: inset 0 0 15px #595997;
+        box-shadow: inset 0 0 15px #595997;
+    }
+}
+
+@keyframes twinkle-night {
+    to {
+        -webkit-box-shadow: inset 0 0 15px #595997;
+        box-shadow: inset 0 0 15px #595997;
+    }
+}
+
+@keyframes progress {
+    0% {
+        background-position: 0, 0;
+    }
+    100% {
+        background-position: 30px 0;
+    }
+}
+
+@-webkit-keyframes showInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100px, 0);
+        transform: translate3d(0, 100px, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes showInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100px, 0);
+        transform: translate3d(0, 100px, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes dong {
+    0% {
+        -webkit-transform: translateY(3px) scaleY(.95);
+        transform: translateY(3px) scaleY(.95);
+    }
+
+    100% {
+        -webkit-transform: translateY(-3px) scaleY(1);
+        transform: translateY(-3px) scaleY(1);
+    }
+}
+
+/*加载动画*/
+@keyframes rotating {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes wobble-bottom {
+    16.65% {
+        -webkit-transform: skew(-12deg);
+        transform: skew(-12deg);
+    }
+
+    33.3% {
+        -webkit-transform: skew(10deg);
+        transform: skew(10deg);
+    }
+    49.95% {
+        -webkit-transform: skew(-6deg);
+        transform: skew(-6deg);
+    }
+    66.6% {
+        -webkit-transform: skew(4deg);
+        transform: skew(4deg);
+    }
+    83.25% {
+        -webkit-transform: skew(-2deg);
+        transform: skew(-2deg);
+    }
+    100% {
+        -webkit-transform: skew(0);
+        transform: skew(0);
+    }
+}
+
+@keyframes lamp-background {
+    0%, 24.9% {
+        background-color: #54b5db;
+    }
+
+    25%, 49.9% {
+        background-color: #da4733;
+    }
+    50%, 74.9% {
+        background-color: #3b78e7;
+    }
+    75%, 100% {
+        background-color: #fdba2c;
+    }
+}
+
+@keyframes lamp-front {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        background-color: #da4733;
+    }
+
+    24.9% {
+        -webkit-transform: scaleX(.5);
+        transform: scaleX(.5);
+        background-color: #da4733;
+    }
+    25% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        background-color: #3b78e7;
+    }
+    49.9% {
+        -webkit-transform: scaleX(.5);
+        transform: scaleX(.5);
+        background-color: #3b78e7;
+    }
+    50% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        background-color: #fdba2c;
+    }
+    74.9% {
+        -webkit-transform: scaleX(.5);
+        transform: scaleX(.5);
+        background-color: #fdba2c;
+    }
+    75% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        background-color: #409eff;
+    }
+    100% {
+        -webkit-transform: scaleX(.5);
+        transform: scaleX(.5);
+        background-color: #409eff;
+    }
+}
+
+@-webkit-keyframes rotate {
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg)
+    }
+}
